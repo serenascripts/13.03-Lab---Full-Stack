@@ -15,6 +15,15 @@ block content
         input(type='hidden', name='id', value=val.id)
         button(type='submit') Delete
 
+      form(method='POST' action='/edit')
+        input(type='hidden', name='id', value=val.id)
+        input(type='text', name='task', value=val.task)
+
+      if val.completed == 0
+        form(method='POST' action='/complete')
+        input(type='hidden', name='id', value=val.id)
+        button(type='submit') Mark Completed
+
   hr
   h2 Add a new task
   form(method='POST' action='/create')

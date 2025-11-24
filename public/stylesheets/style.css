@@ -1,3 +1,5 @@
+
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -5,4 +7,24 @@ body {
 
 a {
   color: #00B7FF;
+}
+
+h1, h2 {
+  color: #2e6b4e;
+}
+
+ol li {
+  background: #e6f3ea;
+  margin: 8px 0;
+  padding: 8px;
+  border-left: 4px solid #2e6b4e;
+  border-radius: 4px;
+}
+
+button {
+  background: #2e6b4e;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
 }
